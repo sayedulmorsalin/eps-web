@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="100%" height="100%">
+  <defs>
+    <!-- Brand Gradients -->
+    <linearGradient id="riderLogoFire" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="50%" stop-color="#F48721" />
+      <stop offset="100%" stop-color="#E03100" />
+    </linearGradient>
+
+    <linearGradient id="riderLogoGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE600" />
+      <stop offset="100%" stop-color="#FF9900" />
+    </linearGradient>
+
+    <linearGradient id="riderLogoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241B16" />
+      <stop offset="100%" stop-color="#120E0B" />
+    </linearGradient>
+
+    <filter id="riderLogoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Left Icon Emblem -->
+  <g transform="translate(18, 14)">
+    <rect x="0" y="0" width="132" height="132" rx="32" fill="url(#riderLogoBg)" stroke="url(#riderLogoFire)" stroke-width="2.5" stroke-opacity="0.85" filter="url(#riderLogoShadow)" />
+
+    <!-- Mini Aerodynamic Rider Motif -->
+    <g transform="translate(66, 68) scale(0.42)">
+      <!-- Top Wing -->
+      <path d="M -80 -95 L 75 -95 C 120 -95, 150 -60, 125 -20 L 65 -20 C 80 -40, 68 -60, 38 -60 L -45 -60 L -45 -95 Z" fill="url(#riderLogoFire)" />
+      <!-- Helmet Crest -->
+      <path d="M -80 -40 L 25 -40 C 70 -40, 100 -12, 90 30 C 80 70, 40 90, -15 90 L -80 90 Z" fill="url(#riderLogoFire)" />
+      <!-- Cyan Visor -->
+      <path d="M -15 -10 L 50 -10 C 70 -10, 78 5, 70 22 L -15 22 Z" fill="#38BDF8" />
+      <!-- Lightning Bolt -->
+      <polygon points="5,35 55,35 30,70 70,70 0,135 15,85 -20,85" fill="url(#riderLogoGold)" />
+      <!-- Left Stem -->
+      <rect x="-80" y="-95" width="30" height="185" rx="8" fill="url(#riderLogoFire)" />
+    </g>
+  </g>
+
+  <!-- Right Typography & Badging -->
+  <g transform="translate(175, 0)">
+    <!-- EPSR text -->
+    <text x="0" y="78" font-family="system-ui, -apple-system, sans-serif" font-size="62" font-weight="900" letter-spacing="3" fill="#FFFFFF">
+      EP<tspan fill="url(#riderLogoFire)">SR</tspan>
+    </text>
+
+    <!-- RIDER Velocity Badge -->
+    <g transform="translate(195, 30)">
+      <polygon points="0,0 135,0 150,42 15,42" fill="url(#riderLogoFire)" />
+      <text x="82" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" font-style="italic" letter-spacing="3" fill="#FFFFFF" text-anchor="middle">
+        RIDER
+      </text>
+    </g>
+
+    <!-- Subtitle -->
+    <text x="3" y="116" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="700" letter-spacing="5" fill="#A1A1AA">
+      EXPRESS DELIVERY PARTNER
+    </text>
+
+    <!-- Accent Speed Line -->
+    <rect x="3" y="128" width="135" height="3" rx="1.5" fill="url(#riderLogoFire)" />
+    <polygon points="145,128 175,128 170,131 140,131" fill="url(#riderLogoGold)" />
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="100%" height="100%">
+  <defs>
+    <!-- Brand Gradients -->
+    <linearGradient id="logoOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB054" />
+      <stop offset="40%" stop-color="#F48721" />
+      <stop offset="100%" stop-color="#DE6700" />
+    </linearGradient>
+
+    <linearGradient id="logoGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD666" />
+      <stop offset="100%" stop-color="#FFA940" />
+    </linearGradient>
+
+    <linearGradient id="logoBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#242122" />
+      <stop offset="100%" stop-color="#141213" />
+    </linearGradient>
+
+    <filter id="logoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Icon Emblem (Left) -->
+  <g transform="translate(18, 14)">
+    <!-- Squircle Frame -->
+    <rect x="0" y="0" width="132" height="132" rx="32" fill="url(#logoBgGrad)" stroke="#F48721" stroke-width="2.5" stroke-opacity="0.5" filter="url(#logoShadow)" />
+    
+    <!-- Mini Isometric Emblem -->
+    <g transform="translate(66, 66) scale(0.48)">
+      <!-- Top Wing -->
+      <path d="M -100 -85 L 40 -85 C 68 -85, 88 -70, 105 -48 L 70 -18 C 60 -30, 48 -40, 22 -40 L -55 -40 L -55 -85 Z" fill="url(#logoOrangeGrad)" />
+      <!-- Parcel Cube -->
+      <path d="M 0 -38 L 55 -12 L 0 14 L -55 -12 Z" fill="url(#logoGoldGrad)" />
+      <path d="M 55 -12 L 55 42 L 0 68 L 0 14 Z" fill="url(#logoOrangeGrad)" />
+      <path d="M -55 -12 L 0 14 L 0 68 L -55 42 Z" fill="#D45C00" />
+      <path d="M 0 -38 L 0 14 L 0 68" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.8" />
+      <!-- Spine -->
+      <rect x="-100" y="-85" width="45" height="170" rx="12" fill="url(#logoOrangeGrad)" />
+      <!-- Bottom Sweep -->
+      <path d="M -100 85 L 40 85 C 68 85, 90 70, 110 42 L 70 20 C 60 32, 45 42, 20 42 L -55 42 L -55 85 Z" fill="url(#logoOrangeGrad)" />
+      <!-- Chevron -->
+      <path d="M 75 -5 L 110 20 L 75 45" fill="none" stroke="url(#logoGoldGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <!-- Typography (Right) -->
+  <g transform="translate(175, 0)">
+    <!-- EPSR Main Text -->
+    <text x="0" y="86" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="68" font-weight="900" letter-spacing="3" fill="#FFFFFF">
+      EP<tspan fill="url(#logoOrangeGrad)">SR</tspan>
+    </text>
+
+    <!-- Speed Spark Dot on R -->
+    <circle cx="218" cy="42" r="6" fill="url(#logoGoldGrad)" />
+
+    <!-- Tagline Subtitle -->
+    <text x="3" y="118" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="14.5" font-weight="700" letter-spacing="5" fill="#A1A1AA">
+      EASY PRODUCT SERVICE RAJSHAHI
+    </text>
+
+    <!-- Underline Accent Bar -->
+    <rect x="3" y="128" width="140" height="3" rx="1.5" fill="url(#logoOrangeGrad)" />
+    <rect x="150" y="128" width="24" height="3" rx="1.5" fill="url(#logoGoldGrad)" />
+  </g>
+</svg>
